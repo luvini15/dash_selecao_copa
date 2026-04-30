@@ -1,4 +1,6 @@
 import os
+os.environ["STREAMLIT_SERVER_HEADLESS"] = "true"
+import os
 import glob
 import html
 import pycountry
